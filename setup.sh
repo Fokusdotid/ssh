@@ -84,7 +84,7 @@ echo "   - IPv6                    : [OFF]"  | tee -a log-install.txt
 echo "   - Autoreboot On 00.00 GMT +7" | tee -a log-install.txt
 echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
-echo "------------------------------------------Mod by SL------------------------------------------" | tee -a log-install.txt
+echo "-----------------------------------Mod by Aguz Familia--------------------------------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 10 Sec"
 sleep 10
