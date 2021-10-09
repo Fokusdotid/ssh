@@ -5,7 +5,7 @@ IP=$(wget -qO- icanhazip.com);
 Login=trial`</dev/urandom tr -dc X-Z0-9 | head -c4`
 hari="1"
 Pass=1
-
+domain=$(cat /etc/v2ray/domain)
 
 echo Script AutoCreate Akun SSH dan OpenVPN Mod By Aguz Familia
 sleep 1
