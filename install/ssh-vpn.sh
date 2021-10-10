@@ -272,7 +272,7 @@ wget -O usernew "https://raw.githubusercontent.com/${GitUser}/ssh/main/usernew.s
 wget -O trial "https://raw.githubusercontent.com/${GitUser}/ssh/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/${GitUser}/ssh/main/hapus/hapus.sh"
 wget -O member "https://raw.githubusercontent.com/${GitUser}/ssh/main/member.sh"
-wget -o webmin "https://raw.githubusercontent.com/${GitUser}/ssh/main/webmin.sh"
+wget -O webmin "https://raw.githubusercontent.com/${GitUser}/ssh/main/webmin.sh"
 wget -O delete "https://raw.githubusercontent.com/${GitUser}/ssh/main/hapus/delete.sh"
 wget -O cek "https://raw.githubusercontent.com/${GitUser}/ssh/main/cek.sh"
 wget -O restart "https://raw.githubusercontent.com/${GitUser}/ssh/main/restart.sh"
@@ -285,7 +285,7 @@ wget -O ceklim "https://raw.githubusercontent.com/${GitUser}/ssh/main/ceklim.sh"
 wget -O tendang "https://raw.githubusercontent.com/${GitUser}/ssh/main/tendang.sh"
 wget -O clear-log "https://raw.githubusercontent.com/${GitUser}/ssh/main/clear-log.sh"
 
-echo "0 5 * * * root clear-log && reboot" >> /etc/crontab
+echo "0 5 * * * root clear-log" >> /etc/crontab
 
 chmod +x addhost
 chmod +x menu

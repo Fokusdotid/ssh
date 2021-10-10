@@ -199,7 +199,7 @@ apt install -y libxml-parser-perl
 
 # banner /etc/issue.net
 wget -O /etc/issue.net "https://raw.githubusercontent.com/${GitUser}/ssh/main/bannerssh.conf"
-echo "Banner /etc/issue.net" >>/etc/ssh/sshd_config
+echo "Banner /etc/issue.net" >> /etc/ssh/sshd_config
 sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dropbear
 
 
@@ -244,7 +244,7 @@ wget -O usernew "https://raw.githubusercontent.com/${GitUser}/ssh/main/usernew.s
 wget -O trial "https://raw.githubusercontent.com/${GitUser}/ssh/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/${GitUser}/ssh/main/hapus/hapus.sh"
 wget -O member "https://raw.githubusercontent.com/${GitUser}/ssh/main/member.sh"
-wget -o webmin "https://raw.githubusercontent.com/${GitUser}/ssh/main/webmin.sh"
+wget -O webmin "https://raw.githubusercontent.com/${GitUser}/ssh/main/webmin.sh"
 wget -O delete "https://raw.githubusercontent.com/${GitUser}/ssh/main/hapus/delete.sh"
 wget -O cek "https://raw.githubusercontent.com/${GitUser}/ssh/main/cek.sh"
 wget -O restart "https://raw.githubusercontent.com/${GitUser}/ssh/main/restart.sh"
